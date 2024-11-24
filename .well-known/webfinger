@@ -1,0 +1,30 @@
+{
+    "subject":"acct:pdebruin@hachyderm.io",
+    "aliases":
+    [
+        "https://hachyderm.io/@pdebruin",
+        "https://hachyderm.io/users/pdebruin"
+    ],
+    "links":
+    [
+        {
+            "rel":"authority",
+            "type":"text/json",
+            "href":"https://hachyderm.io/.well-known/webfinger?resource=acct:pdebruin@hachyderm.io"
+        },
+        {
+            "rel":"http://webfinger.net/rel/profile-page",
+            "type":"text/html",
+            "href":"https://hachyderm.io/@pdebruin"
+        },
+        {
+            "rel":"self",
+            "type":"application/activity+json",
+            "href":"https://hachyderm.io/users/pdebruin"
+        },
+        {
+            "rel":"http://ostatus.org/schema/1.0/subscribe",
+            "template":"https://hachyderm.io/authorize_interaction?uri={uri}"
+        }
+    ]
+}
